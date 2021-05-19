@@ -52,4 +52,9 @@ print(list(filter(lambda x: x < 5, list1)))
 # ages = [20, 19, 56, 10, 23, 14, 15, 20]
 # eligible_to_vote = list(filter(lambda x: x >= 18, ages))
 # print("The following ages are eligible to vote - {}".format(eligible_to_vote))
+
+# ----------- Vaccine Eligibility in a certain area -----------
+# ages = [20, 19, 56, 10, 23, 14, 15, 20, 40, 70, 60, 98]
+# elibility_for_vaccine = list(filter(lambda x: x >= 18 and x <= 45, ages))
+# print("The following ages are eligible to vote - {}".format(elibility_for_vaccine))
 print()
