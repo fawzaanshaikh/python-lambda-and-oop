@@ -21,7 +21,7 @@ print(addTen(29))
 # ----------- Lambda with constant return operands -----------
 # constantSubtract = lambda x: 1 - 2
 # print(constantSubtract(4))
-
+print()
 
 
 """ map() function - maps a function to a list and its elements """
@@ -40,7 +40,7 @@ print(list(map(lambda x: x + 2, [1, 2, 3])))
 # ----------- map() with built-in functions -----------
 # eg3 = map(str, eg2)
 # print(list(eg3))
-
+print()
 
 
 """ filter() unction is used to filter out the values in a list """
@@ -52,4 +52,4 @@ print(list(filter(lambda x: x < 5, list1)))
 # ages = [20, 19, 56, 10, 23, 14, 15, 20]
 # eligible_to_vote = list(filter(lambda x: x >= 18, ages))
 # print("The following ages are eligible to vote - {}".format(eligible_to_vote))
-
+print()
