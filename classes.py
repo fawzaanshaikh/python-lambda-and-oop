@@ -79,3 +79,43 @@ print(type(first_object))    # The file from which the top-level code is being r
 # print(square_value, " ", cube_value, " ", multiply_with_x)
 
 
+# ----------- Inheritance -----------
+# class SoftwareEngineer:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+    
+#     def salary(self, value):
+#         self.money = value
+#         print(self.name, " earns ", self.money)
+
+# software_employee = SoftwareEngineer('Ritveak', 26)
+# software_employee.salary(40000)
+
+
+# class Artist:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+    
+#     def salary(self,value):
+#         self.money = value
+#         print(self.name, " earns ", self.money)
+    
+#     def artform(self, job):
+#         self.job = job
+#         print(self.name, " is a ", self.job)
+
+# general_employee = Artist('Vraj',20)
+# general_employee.salary(50000)
+# general_employee.artform('Musician')
+
+
+# class InheritedArtist(SoftwareEngineer):
+#     def artform(self, job):
+#         self.job = job
+#         print(self.name, " is a ", self.job)
+
+# employee = InheritedArtist("Fawzaan", 19)
+# employee.salary(1000)
+# employee.artform("Software Engineer")
