@@ -4,13 +4,19 @@
 
 # functionName = lambda variable_name: operation on variable_name
 
-addTen = lambda x: x + 10
-print(addTen(29))
+# addTen = lambda x: x + 10
+# print(addTen(29))
+
+# def addTen(x):
+#     return x + 10
 
 # square = lambda x: x * x
 # print(square(8))
 
 # ----------- Using two different variables -----------
+# def twoVariables(x, y):
+#     return x + y
+
 # add = lambda x, y: x + y
 # print(add(2, 3))
 
@@ -32,18 +38,29 @@ print()
 # print(list(map(lambda x: x + 10, example_list)))
 
 # ----------- map() on two lists -----------
-# list1 = [1,2,3,4,5,6,7,8,9]
-# list2 = [9,8,7,6,5,4,3,2,1]
+# list1 = [1,2,3,4,5]
+# list2 = [9,8,7,6,5,4,3]
 # eg2 = list(map(lambda x, y: x + y, list1, list2))
 # print(eg2)
 
 # ----------- map() with built-in functions -----------
+
+# def addTwo(x):
+#     return x + 2
+
+# ex_list = [1, 2, 3]
+# ex_tuple = (1, 2, 3)
+
+# example = tuple(map(addTwo, ex_tuple))
+# print(example)
+
+# eg2 = [10, 10, 10, 10]
 # eg3 = map(str, eg2)
 # print(list(eg3))
 print()
 
 
-""" filter() unction is used to filter out the values in a list """
+""" filter() function is used to filter out the values in a list """
 # list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # print(list(filter(lambda x: x < 5, list1)))
 # print(list(map(lambda x: x < 5, list1)))
@@ -53,8 +70,12 @@ print()
 # eligible_to_vote = list(filter(lambda x: x >= 18, ages))
 # print("The following ages are eligible to vote - {}".format(eligible_to_vote))
 
+# string_example = "Fawzaan"
+# age = 20
+# print("Hi there, {}, I'm assuming that you are {} years old!".format(string_example, age))
+
 # ----------- Vaccine Eligibility in a certain area -----------
-# ages = [20, 19, 56, 10, 23, 14, 15, 20, 40, 70, 60, 98]
-# elibility_for_vaccine = list(filter(lambda x: x >= 18 and x <= 45, ages))
-# print("The following ages are eligible to vote - {}".format(elibility_for_vaccine))
+ages = [20, 19, 56, 10, 23, 14, 15, 20, 40, 70, 60, 98]
+eligibility_for_vaccine = list(map(str, list(filter(lambda x: x >= 18 and x <= 45, ages)))) 
+print("The following ages are eligible to be vaccinated - {}".format(eligibility_for_vaccine))
 print()
