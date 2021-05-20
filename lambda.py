@@ -25,8 +25,8 @@ print()
 
 
 """ map() function - maps a function to a list and its elements """
-print(map(lambda x: x + 2, [1, 2, 3]))
-print(list(map(lambda x: x + 2, [1, 2, 3])))
+# print(map(lambda x: x + 2, [1, 2, 3]))
+# print(list(map(lambda x: x + 2, [1, 2, 3])))
 
 # example_list = [1, 2, 3, 4, 5]
 # print(list(map(lambda x: x + 10, example_list)))
@@ -44,8 +44,8 @@ print()
 
 
 """ filter() unction is used to filter out the values in a list """
-list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-print(list(filter(lambda x: x < 5, list1)))
+# list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# print(list(filter(lambda x: x < 5, list1)))
 # print(list(map(lambda x: x < 5, list1)))
 
 # ----------- Voting Eligibility example using filter -----------
