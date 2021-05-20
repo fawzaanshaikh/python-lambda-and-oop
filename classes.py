@@ -37,7 +37,10 @@ print(type(first_object))    # The file from which the top-level code is being r
 #         self.name = name
 #         self.age = age
 
-#     def checkPassing(self, marks):  # Member Function
+#     --def sayHello(self):
+#         print("Hello, World!")
+
+#     --def checkPassing(self, marks):  # Member Function with Parameters
 #         self.marks = marks
 
 #         if self.marks >= 33:
@@ -49,6 +52,30 @@ print(type(first_object))    # The file from which the top-level code is being r
 
 # print("{} is {} years old and has {} the examination".format(test_object.name, test_object.age, test_object.test))
 
+# test_object.sayHello()
 # test_object.checkPassing(56)
 # test_object.checkPassing(22)
+
+# -- class BasicMathClass:
+#     def __init__(self,name,symbol):
+#         self.name = name
+#         self.symbol = symbol
+    
+#     def square(self):   # Member Functions with a Return Type
+#         return self.symbol * self.symbol
+    
+#     def cube(self):
+#         return self.symbol * self.symbol * self.symbol
+    
+#     def multiply(self, x): # Member Function with a Parameter and Return Type
+#         return self.symbol * x
+
+# basic_math_object = BasicMathClass("Seventeen", 17)
+
+# square_value = basic_math_object.square()
+# cube_value = basic_math_object.cube()
+# multiply_with_x = basic_math_object.multiply(24)
+
+# print(square_value, " ", cube_value, " ", multiply_with_x)
+
 
